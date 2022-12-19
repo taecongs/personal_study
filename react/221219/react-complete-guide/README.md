@@ -12,7 +12,7 @@
 
 ✅ toLocaleString 메소드란? <br/>
 - 날짜를 읽기 쉬운 문자열로 반환하는 메서드이다.
-- <a href='https://velog.io/@ddaisylee/toLocaleString'>option 참고사이트</a>
+- <a href='https://velog.io/@ddaisylee/toLocaleString'>toLocaleString Option 참고사이트</a>
 
 ✅ props란? <br/>
 - 부모(상위) 컴포넌트가 자식(하위) 컴포넌트에게 값을 전달할 때 사용한다.
