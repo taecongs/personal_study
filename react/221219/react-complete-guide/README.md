@@ -10,6 +10,10 @@
 ✅ toISOString 메소드란? <br/>
 - 모든 date 객체에 사용가능한 내장 메소드이며, date 객체를 문자열로 출력한다.
 
+✅ toLocaleString 메소드란? <br/>
+- 날짜를 읽기 쉬운 문자열로 반환하는 메서드이다.
+- <a href='https://velog.io/@ddaisylee/toLocaleString'>option 참고사이트</a>
+
 ✅ props란? <br/>
 - 부모(상위) 컴포넌트가 자식(하위) 컴포넌트에게 값을 전달할 때 사용한다.
 - 프로퍼티에 문자열을 전달할 때는 큰따옴표(""), 문자열 외의 값을 전달할 때는 중괄호({})를 사용한다.
