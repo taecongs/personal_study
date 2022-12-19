@@ -3,4 +3,4 @@
 <hr/>
 
 ### 💻 Section 3 : 리액트 기초 및 실습 컴포넌트
-✅ 2022-12-19 정리 <a href='https://github.com/taecongs/personal_study/tree/main/react/221219/react-complete-guide'></a> <br/>
+✅ <a href='https://github.com/taecongs/personal_study/tree/main/react/221219/react-complete-guide'>2022-12-19 정리</a> <br/>
