@@ -59,5 +59,5 @@ setUserInput((prevState) => {
 - 자식은 props를 사용해서 부모에게 데이터를 건네줄 수 없다.
 - 부모가 함수를 넣어 props로 자식에게 넘겨주면, 자식이 데이터를 파라미터로 넣어 호출하는 방식으로 동작한다.
 - 즉, 부모가 props로 함수를 넣어주면 자식이 그 함수를 이용해 값을 건네주는 방식이다.
-- 221221/section4/App.js, NewExpense.js, ExpenseForm.js 참고
+- App.js <- NewExpense.js <- ExpenseForm.js 참고
 
