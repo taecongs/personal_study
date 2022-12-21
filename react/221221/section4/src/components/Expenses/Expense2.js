@@ -9,18 +9,18 @@ import ExpenseFilter from './ExpenseFilter';
 
 
 const Expense = (props) => {
-    const [yearData, setYearData] = useState('2022');
+    const [yearData, setYearData] = useState('');
 
     const onFilterData = (data) => {
         setYearData(data);
     }
 
     return (
-        <div>
-            <Card className='expenses'>
-                <ExpenseFilter selected={yearData} onFilterData={onFilterData} />
-                <h2 style={{ color: '#fff' }}>{yearData}</h2>
+        <div className='expenses'>
+            <ExpenseFilter onFilterData={onFilterData} />
+            <h2 style={{color : '#fff'}}>{yearData}</h2>
 
+            <Card className='expenses'>
                 <ExpenseItem title={props.item[0].title} amount={props.item[0].amount} date={props.item[0].date} />
                 <ExpenseItem title={props.item[1].title} amount={props.item[1].amount} date={props.item[1].date} />
                 <ExpenseItem title={props.item[2].title} amount={props.item[2].amount} date={props.item[2].date} />
