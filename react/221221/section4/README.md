@@ -25,5 +25,22 @@ const titleChangeHandler = (e) => {
   setEnterTitle(e.target.value);
 };
 
+// onChange={} 를 사용하여 이벤트 정의
+<input type='text' onChange={titleChangeHandler} />
+```
+
+```javascript
+// 객체 하나로 독립적인 state가 아니라 한 개의 state처럼 관리할 수 있다.
+const [userInput, setUserInput] = useState({
+    enterTitle : ''
+});
+
+// 상태 업데이트가 이전 상태에 의존하고 있다면 이 방식으로 정의해야 한다.
+// prevState : 정의된 useState({}) 객체
+setUserInput((prevState) => {
+    return {...prevState, enterTitle : e.target.value}; 
+});
+
+// onChange={} 를 사용하여 이벤트 정의
 <input type='text' onChange={titleChangeHandler} />
 ```
