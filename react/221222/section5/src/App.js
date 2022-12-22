@@ -16,6 +16,8 @@ function App() {
 
   const addExpenseHandler = (e) => {
     setExData(prevExData => {
+      // e : 새로 추가되는 항목
+      // ...prevExData : DUMMY_EXPENSES 객체의 키와 값을 추출해서 새로운 객체로 추가
       return [e, ...prevExData];
     });
   }

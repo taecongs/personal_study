@@ -21,7 +21,7 @@ const Expense = (props) => {
                 <ExpenseFilter selected={yearData} onFilterData={onFilterData} />
 
                 {props.item.map((data) => 
-                    <ExpenseItem title={data.title} amount={data.amount} date={data.date} />
+                    <ExpenseItem key={data.id} title={data.title} amount={data.amount} date={data.date} />
                 )};
 
                 {/* <ExpenseItem title={props.item[0].title} amount={props.item[0].amount} date={props.item[0].date} />
